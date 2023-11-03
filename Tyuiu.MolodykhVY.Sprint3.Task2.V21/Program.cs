@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tyuiu.MolodykhVY.Sprint3.Task2.V21.Lib;
 
 namespace Tyuiu.MolodykhVY.Sprint3.Task2.V21
 {
     class Program
     {
+        private static object ds;
+
         static void Main(string[] args)
         {
+            DataService ds = new DataService();
             Console.Title = "Спринт #3 | Выполнил: Молодых В. Ю. | ИИПБ-23-3";
-            //Длина строки 75 символов
             Console.WriteLine("****************************************************************************************");
             Console.WriteLine("* Спринт #3                                                                            *");
             Console.WriteLine("* Тема:  алгоритмы циклической структуры                                               *");

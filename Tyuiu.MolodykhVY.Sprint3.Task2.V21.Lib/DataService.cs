@@ -17,6 +17,7 @@ namespace Tyuiu.MolodykhVY.Sprint3.Task2.V21.Lib
             {
                 res += Math.Pow(1 / (Math.Sin(k) + 2 * Math.Pow(value, k)), k);
                 k++;
+
             }
             while (k < 11);
 
