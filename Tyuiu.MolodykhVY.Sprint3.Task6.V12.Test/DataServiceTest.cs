@@ -5,7 +5,7 @@ using Tyuiu.MolodykhVY.Sprint3.Task6.V12.Lib;
 namespace Tyuiu.MolodykhVY.Sprint3.Task6.V12.Test
 {
     [TestClass]
-    public class UnitTest1
+    public class DataServiceTest
     {
         [TestMethod]
         public void ValidGetSumTheDivisors()
